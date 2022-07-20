@@ -2,7 +2,7 @@
 HackwithSwift MileStone 1-3
 
 <p float="left">
-  <img src="![Simulator Screen Shot - iPhone 13 Pro Max - 2022-07-20 at 11 09 47](https://user-images.githubusercontent.com/71196378/179931349-6e35c54c-a5ac-438c-9975-3de29da11c4a.png)" width="100" />
+  <img src="!https://user-images.githubusercontent.com/71196378/179931349-6e35c54c-a5ac-438c-9975-3de29da11c4a.png" width="100" />
 
 </p>
 
