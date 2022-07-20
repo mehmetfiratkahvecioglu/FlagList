@@ -55,10 +55,13 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
         }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let flagName = flags[indexPath.row]
+        let splitName = flagName.split(separator: "@")
         
         if let vc = storyboard?.instantiateViewController(withIdentifier: "detailFlag") as! DetailView? {
             
             vc.selectedImage = flags[indexPath.row]
+            vc.countryName = String(splitName[0])
             navigationController?.pushViewController(vc, animated: true)
             
         }
